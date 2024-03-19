@@ -267,8 +267,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ap4.dir/Source/C++/System/Posix/Ap4PosixRandom.cpp.o.d"
   "CMakeFiles/ap4.dir/Source/C++/System/StdC/Ap4StdCFileByteStream.cpp.o"
   "CMakeFiles/ap4.dir/Source/C++/System/StdC/Ap4StdCFileByteStream.cpp.o.d"
-  "libap4.a"
   "libap4.pdb"
+  "libap4.so"
 )
 
 # Per-language clean rules from dependency scanning.

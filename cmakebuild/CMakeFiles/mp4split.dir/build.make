@@ -92,7 +92,7 @@ mp4split_EXTERNAL_OBJECTS =
 
 mp4split: CMakeFiles/mp4split.dir/Source/C++/Apps/Mp4Split/Mp4Split.cpp.o
 mp4split: CMakeFiles/mp4split.dir/build.make
-mp4split: libap4.a
+mp4split: libap4.so
 mp4split: CMakeFiles/mp4split.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4split"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4split.dir/link.txt --verbose=$(VERBOSE)

@@ -8,12 +8,12 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 # Import target "bento4::ap4" for configuration ""
 set_property(TARGET bento4::ap4 APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(bento4::ap4 PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libap4.a"
+  IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libap4.so"
+  IMPORTED_SONAME_NOCONFIG "libap4.so"
   )
 
 list(APPEND _cmake_import_check_targets bento4::ap4 )
-list(APPEND _cmake_import_check_files_for_bento4::ap4 "${_IMPORT_PREFIX}/lib/libap4.a" )
+list(APPEND _cmake_import_check_files_for_bento4::ap4 "${_IMPORT_PREFIX}/lib/libap4.so" )
 
 # Import target "bento4::aac2mp4" for configuration ""
 set_property(TARGET bento4::aac2mp4 APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)

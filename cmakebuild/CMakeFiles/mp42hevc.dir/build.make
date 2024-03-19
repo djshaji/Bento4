@@ -92,7 +92,7 @@ mp42hevc_EXTERNAL_OBJECTS =
 
 mp42hevc: CMakeFiles/mp42hevc.dir/Source/C++/Apps/Mp42Hevc/Mp42Hevc.cpp.o
 mp42hevc: CMakeFiles/mp42hevc.dir/build.make
-mp42hevc: libap4.a
+mp42hevc: libap4.so
 mp42hevc: CMakeFiles/mp42hevc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp42hevc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp42hevc.dir/link.txt --verbose=$(VERBOSE)

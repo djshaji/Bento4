@@ -92,7 +92,7 @@ mp4dcfpackager_EXTERNAL_OBJECTS =
 
 mp4dcfpackager: CMakeFiles/mp4dcfpackager.dir/Source/C++/Apps/Mp4DcfPackager/Mp4DcfPackager.cpp.o
 mp4dcfpackager: CMakeFiles/mp4dcfpackager.dir/build.make
-mp4dcfpackager: libap4.a
+mp4dcfpackager: libap4.so
 mp4dcfpackager: CMakeFiles/mp4dcfpackager.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4dcfpackager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4dcfpackager.dir/link.txt --verbose=$(VERBOSE)

@@ -56,7 +56,7 @@ if(_IMPORT_PREFIX STREQUAL "/")
 endif()
 
 # Create imported target bento4::ap4
-add_library(bento4::ap4 STATIC IMPORTED)
+add_library(bento4::ap4 SHARED IMPORTED)
 
 set_target_properties(bento4::ap4 PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"

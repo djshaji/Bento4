@@ -92,7 +92,7 @@ mp4audioclip_EXTERNAL_OBJECTS =
 
 mp4audioclip: CMakeFiles/mp4audioclip.dir/Source/C++/Apps/Mp4AudioClip/Mp4AudioClip.cpp.o
 mp4audioclip: CMakeFiles/mp4audioclip.dir/build.make
-mp4audioclip: libap4.a
+mp4audioclip: libap4.so
 mp4audioclip: CMakeFiles/mp4audioclip.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4audioclip"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4audioclip.dir/link.txt --verbose=$(VERBOSE)

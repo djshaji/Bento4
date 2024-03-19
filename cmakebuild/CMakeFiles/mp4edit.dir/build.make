@@ -92,7 +92,7 @@ mp4edit_EXTERNAL_OBJECTS =
 
 mp4edit: CMakeFiles/mp4edit.dir/Source/C++/Apps/Mp4Edit/Mp4Edit.cpp.o
 mp4edit: CMakeFiles/mp4edit.dir/build.make
-mp4edit: libap4.a
+mp4edit: libap4.so
 mp4edit: CMakeFiles/mp4edit.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4edit"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4edit.dir/link.txt --verbose=$(VERBOSE)

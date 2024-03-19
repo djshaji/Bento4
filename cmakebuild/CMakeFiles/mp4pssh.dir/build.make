@@ -92,7 +92,7 @@ mp4pssh_EXTERNAL_OBJECTS =
 
 mp4pssh: CMakeFiles/mp4pssh.dir/Source/C++/Apps/Mp4Pssh/Mp4Pssh.cpp.o
 mp4pssh: CMakeFiles/mp4pssh.dir/build.make
-mp4pssh: libap4.a
+mp4pssh: libap4.so
 mp4pssh: CMakeFiles/mp4pssh.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4pssh"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4pssh.dir/link.txt --verbose=$(VERBOSE)

@@ -92,7 +92,7 @@ mp4info_EXTERNAL_OBJECTS =
 
 mp4info: CMakeFiles/mp4info.dir/Source/C++/Apps/Mp4Info/Mp4Info.cpp.o
 mp4info: CMakeFiles/mp4info.dir/build.make
-mp4info: libap4.a
+mp4info: libap4.so
 mp4info: CMakeFiles/mp4info.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4info"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4info.dir/link.txt --verbose=$(VERBOSE)

@@ -92,7 +92,7 @@ aac2mp4_EXTERNAL_OBJECTS =
 
 aac2mp4: CMakeFiles/aac2mp4.dir/Source/C++/Apps/Aac2Mp4/Aac2Mp4.cpp.o
 aac2mp4: CMakeFiles/aac2mp4.dir/build.make
-aac2mp4: libap4.a
+aac2mp4: libap4.so
 aac2mp4: CMakeFiles/aac2mp4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aac2mp4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aac2mp4.dir/link.txt --verbose=$(VERBOSE)

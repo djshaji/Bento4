@@ -92,7 +92,7 @@ avcinfo_EXTERNAL_OBJECTS =
 
 avcinfo: CMakeFiles/avcinfo.dir/Source/C++/Apps/AvcInfo/AvcInfo.cpp.o
 avcinfo: CMakeFiles/avcinfo.dir/build.make
-avcinfo: libap4.a
+avcinfo: libap4.so
 avcinfo: CMakeFiles/avcinfo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable avcinfo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/avcinfo.dir/link.txt --verbose=$(VERBOSE)

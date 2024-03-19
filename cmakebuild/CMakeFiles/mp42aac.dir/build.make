@@ -92,7 +92,7 @@ mp42aac_EXTERNAL_OBJECTS =
 
 mp42aac: CMakeFiles/mp42aac.dir/Source/C++/Apps/Mp42Aac/Mp42Aac.cpp.o
 mp42aac: CMakeFiles/mp42aac.dir/build.make
-mp42aac: libap4.a
+mp42aac: libap4.so
 mp42aac: CMakeFiles/mp42aac.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp42aac"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp42aac.dir/link.txt --verbose=$(VERBOSE)

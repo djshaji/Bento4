@@ -92,7 +92,7 @@ mp4iframeindex_EXTERNAL_OBJECTS =
 
 mp4iframeindex: CMakeFiles/mp4iframeindex.dir/Source/C++/Apps/Mp4IframeIndex/Mp4IframeIndex.cpp.o
 mp4iframeindex: CMakeFiles/mp4iframeindex.dir/build.make
-mp4iframeindex: libap4.a
+mp4iframeindex: libap4.so
 mp4iframeindex: CMakeFiles/mp4iframeindex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4iframeindex"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4iframeindex.dir/link.txt --verbose=$(VERBOSE)

@@ -92,7 +92,7 @@ mp4decrypt_EXTERNAL_OBJECTS =
 
 mp4decrypt: CMakeFiles/mp4decrypt.dir/Source/C++/Apps/Mp4Decrypt/Mp4Decrypt.cpp.o
 mp4decrypt: CMakeFiles/mp4decrypt.dir/build.make
-mp4decrypt: libap4.a
+mp4decrypt: libap4.so
 mp4decrypt: CMakeFiles/mp4decrypt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4decrypt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4decrypt.dir/link.txt --verbose=$(VERBOSE)

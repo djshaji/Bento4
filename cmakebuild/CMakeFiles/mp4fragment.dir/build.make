@@ -92,7 +92,7 @@ mp4fragment_EXTERNAL_OBJECTS =
 
 mp4fragment: CMakeFiles/mp4fragment.dir/Source/C++/Apps/Mp4Fragment/Mp4Fragment.cpp.o
 mp4fragment: CMakeFiles/mp4fragment.dir/build.make
-mp4fragment: libap4.a
+mp4fragment: libap4.so
 mp4fragment: CMakeFiles/mp4fragment.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4fragment"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4fragment.dir/link.txt --verbose=$(VERBOSE)

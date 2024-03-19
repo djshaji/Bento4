@@ -92,7 +92,7 @@ mp42ts_EXTERNAL_OBJECTS =
 
 mp42ts: CMakeFiles/mp42ts.dir/Source/C++/Apps/Mp42Ts/Mp42Ts.cpp.o
 mp42ts: CMakeFiles/mp42ts.dir/build.make
-mp42ts: libap4.a
+mp42ts: libap4.so
 mp42ts: CMakeFiles/mp42ts.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp42ts"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp42ts.dir/link.txt --verbose=$(VERBOSE)

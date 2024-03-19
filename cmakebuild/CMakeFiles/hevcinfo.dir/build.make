@@ -92,7 +92,7 @@ hevcinfo_EXTERNAL_OBJECTS =
 
 hevcinfo: CMakeFiles/hevcinfo.dir/Source/C++/Apps/HevcInfo/HevcInfo.cpp.o
 hevcinfo: CMakeFiles/hevcinfo.dir/build.make
-hevcinfo: libap4.a
+hevcinfo: libap4.so
 hevcinfo: CMakeFiles/hevcinfo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hevcinfo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hevcinfo.dir/link.txt --verbose=$(VERBOSE)

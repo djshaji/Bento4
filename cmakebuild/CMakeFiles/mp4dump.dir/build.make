@@ -92,7 +92,7 @@ mp4dump_EXTERNAL_OBJECTS =
 
 mp4dump: CMakeFiles/mp4dump.dir/Source/C++/Apps/Mp4Dump/Mp4Dump.cpp.o
 mp4dump: CMakeFiles/mp4dump.dir/build.make
-mp4dump: libap4.a
+mp4dump: libap4.so
 mp4dump: CMakeFiles/mp4dump.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4dump"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4dump.dir/link.txt --verbose=$(VERBOSE)

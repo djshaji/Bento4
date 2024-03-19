@@ -92,7 +92,7 @@ mp4tag_EXTERNAL_OBJECTS =
 
 mp4tag: CMakeFiles/mp4tag.dir/Source/C++/Apps/Mp4Tag/Mp4Tag.cpp.o
 mp4tag: CMakeFiles/mp4tag.dir/build.make
-mp4tag: libap4.a
+mp4tag: libap4.so
 mp4tag: CMakeFiles/mp4tag.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/djshaji/projects/Bento4/cmakebuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mp4tag"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp4tag.dir/link.txt --verbose=$(VERBOSE)
