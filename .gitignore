@@ -1,7 +1,6 @@
 *.pyc
 .DS_Store
 SDK
-cmakebuild
 Source/Python/utils/bin
 Build/Targets/x86-unknown-linux/Debug
 Build/Targets/x86-unknown-linux/Release
